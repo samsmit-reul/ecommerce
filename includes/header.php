@@ -24,7 +24,7 @@
    <div class="searchbar">
    <form>
         <input type="text" placeholder="Search">
-        <button type="search">Search</button>
+        <button type="search">Search</button> .
       </form>
    </div>
    <div class="cart">
