@@ -1,0 +1,103 @@
+/*design for the header*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  padding: 20px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  text-decoration: none;
+}
+.navbar-menu{display: flex;
+  font-size: 20px;
+  font-weight: bold;
+}
+li {
+  list-style-type: none;
+  margin-right: 5px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.navbar-search {display: flex;align-items: center;}
+
+.navbar-search input[type="text"] {padding: 8px;border: none;border-radius: 4px;margin-right: 10px;font-size: 16px;}
+
+.navbar-search button[type="submit"] {
+  padding: 8px 16px;
+  background-color:blue;
+  color:white;
+  border-radius: 5px;
+}
+/*design for the sidebar*/
+.sidebar {
+    width: 20%;
+    float: left;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {display: block;padding: 10px;background-color: #9e9292;color: #d60f0f;text-decoration: none;border-radius: 5px;
+    text-align: center;font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  .login-box {
+    margin: auto;
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
